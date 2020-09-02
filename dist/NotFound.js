@@ -12,7 +12,11 @@ let NotFoundExceptionFilter = class NotFoundExceptionFilter {
     catch(exception, host) {
         const ctx = host.switchToHttp();
         const response = ctx.getResponse();
-        response.redirect('/');
+        if (!exception.message.includes('/dist')) {
+            console.log('tu');
+            response.redirect('/');
+        }
+        console.log('ide');
     }
 };
 NotFoundExceptionFilter = __decorate([

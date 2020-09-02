@@ -1157,7 +1157,7 @@
         "affectsGlobalScope": false
       },
       "../src/notfound.ts": {
-        "version": "6add824d3c8b018ad168d4801e30b3cdc03bd80a548ae8aa5eaf3671c24fbda0",
+        "version": "3721d80c9a050645d859c9f6c6adf118b424cd849e0cfd6e6ae1a7a628bdd2e5",
         "signature": "aebc63bd7fdd08029badcf1afb86879574750625b0c0e4a9521cdfe37e369048",
         "affectsGlobalScope": false
       },
